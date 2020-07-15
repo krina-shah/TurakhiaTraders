@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+body {
+    padding:0px;
+    margin:0px;
+    
+   
+    
+}
+.navbar-brand{
+    color: rgb(221, 41, 41) !important;
+    text-shadow: 1px 1px 3px #f5f3ce !important;
+    font-family: 'Acme', sans-serif !important;
+    font-size: 23px;
+}
+.navbar-brand:hover{
+    color: white !important;
+}
+.link{
+    color: white !important;
+    font-family: 'Acme', sans-serif !important;
+    font-size: 18px;
+}
+.link:hover{
+    color: rgb(199, 45, 45) !important;
+}
+#home{
+    margin-top: 10px;
+    max-width: 1936px;
+    height: auto;
+    width: 100%;
+    background-image: url('../img/bggg.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:20% 30%;    
+    
+}
+#heading{
+    color: black;
+    font-size: 60px;
+    /* margin-left: 60px; */
+    font-family: 'Staatliches', cursive;
+}
+p{
+    color: black;
+    font-size: 20px;
+    font-family: 'Acme', sans-serif !important;
+}
+
+.outer{
+    border: 1px solid lightgray;
+    border-radius:0px !important;
+    width:250px;
+    height:320px;
+    margin-bottom:55px;
+    margin-right: 60px;
+}
+hr{
+    background-color: black !important;
+    width:140px;
+    height:2px;
+}
+.imglogo{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+#about{
+    /* background-image: url('../img/testi3.jpg'); */
+    height: auto;
+    width: 100%;
+    max-width: 1936px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+   
+    
+}
+
+#contactus{
+    
+    height: auto;
+    width: 100%;
+    max-width: 1936px;
+    background-image: url('../img/section.jpg');
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+   
+    
+}
+#testimonials{
+    
+    height: auto;
+    width: 100%;
+    max-width: 1936px;
+    background-image: url('../img/section.jpg');
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+   
+    
+}
+
+.outertest{
+
+    width:250px;
+    height:220px;
+    margin-bottom:155px;
+    
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+   
+    background-color: gray;
+    z-index: 2;
+}
+.imgtest{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    bottom: 210px;
+    z-index: 1;
+    right: 1px;
+}
+.details{
+    position: relative;
+    top: 100px;
+    color: white !important;
+}
+
+.pimg{
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    
+   
+}
+.rotate{
+    animation-name: turn;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+
+@keyframes turn {
+    0%   {transform: rotateX(60deg);}
+    25%  {transform: rotateX(120deg);}
+    50%  {transform: rotateX(240deg);}
+    100% {transform: rotateX(360deg);}
+    
+}
+.input{
+    width: 250px;
+    height: 40px;
+    border-radius: 1px !important;
+}
+.input1{
+    width: 250px;
+    
+    border-radius: 1px !important;
+}
+
+.glyphicon-map-marker{
+    width: 100px !important;
+    height: 100px !important;
+    color: black !important;
+}
+.headers{
+    font-size: 20px;
+    color: black;
+    text-align: justify;
+}
+.footer{
+    
+    background-color: black;
+    max-width: 1936px;
+    width: 100%;
+    height: auto;
+}
+.footerp{
+    color: white;
+}
+.contactdetails{
+    font-size: 15px;
+}
